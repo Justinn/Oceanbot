@@ -1,0 +1,15 @@
+# Discord Music Bot MVP – Project Scope & Constraints
+
+This project is a Discord music bot MVP, as described in [README.md](mdc:discord-bot/README.md). The following constraints and planning details always apply:
+
+- **SoundCloud only:** The MVP only supports playing tracks from SoundCloud. No YouTube/Spotify integration is planned for now.
+- **No queue persistence:** Music queues do not need to persist across bot restarts; no database is required for MVP.
+- **Single server (guild):** The MVP is intended to run in only one Discord server/guild.
+- **No premium features or authentication:** The MVP will not include premium features or require user authentication.
+- **Personal use only:** The MVP is not intended to be deployable by others or as a multi-tenant SaaS.
+
+For further architectural and technical details, see [README.md](mdc:discord-bot/README.md).
+description:
+globs:
+alwaysApply: false
+---
